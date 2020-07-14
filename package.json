@@ -1,0 +1,25 @@
+{
+  "name": "machine-stats-bot",
+  "version": "1.0.0",
+  "description": "A discord bot to show machine statistics like CPU/RAM usage",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radiantly/machine-stats-bot.git"
+  },
+  "author": "radiantly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/radiantly/machine-stats-bot/issues"
+  },
+  "homepage": "https://github.com/radiantly/machine-stats-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "systeminformation": "^4.26.9"
+  }
+}
