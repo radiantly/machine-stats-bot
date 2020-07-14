@@ -1,8 +1,8 @@
-import si from "systeminformation";
+const si = require("systeminformation");
 
 const twoPlaces = num => Math.round(num * 100) / 100;
 const toGB = bytes => twoPlaces(bytes / 1024 / 1024 / 1024);
-export const computeStatistics = async () => {
+module.exports = async () => {
   const memoryUsage = await si.mem();
   const load = await si.currentLoad();
   return {

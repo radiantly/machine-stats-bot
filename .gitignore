@@ -1,5 +1,8 @@
-# config
-config.js
+# Config
+config.json
+
+# Release files
+machine-stats-bot*
 
 # Logs
 logs

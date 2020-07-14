@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "A discord bot to show machine statistics like CPU/RAM usage",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "nexe -i index.js -o machine-stats-bot.exe -t windows-x64-12.9.1 -r 'node_modules/**/*.*'"
   },
   "repository": {
     "type": "git",
